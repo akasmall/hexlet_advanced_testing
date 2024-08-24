@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 pytest = "^8.3.2"
 pyyaml = "^6.0.2"
+faker = "^27.0.0"
+schema = "^0.7.7"
 
 
 [build-system]
