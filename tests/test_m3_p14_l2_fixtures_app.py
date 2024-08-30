@@ -1,7 +1,7 @@
 import os   # надо использовать, а я не догадался как, см. ментора
 import json
 import yaml
-from src.m3_p14_l3_fixtures_app import gen_solution
+from src.m3_p14_l2_fixtures_app import gen_solution
 
 
 # добавлено для теста тут
@@ -98,7 +98,7 @@ def test_get_function_csv_wrong3():
 
 # ?# BEGIN
 # *def get_fixture_path(name):
-#     return os.path.join('fixtures', name)
+# *    return os.path.join('fixtures', name)
 
 
 # *f = open(get_fixture_path('result.html'))
