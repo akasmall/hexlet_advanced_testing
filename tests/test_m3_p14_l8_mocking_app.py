@@ -34,3 +34,22 @@ def test_get_files_count():
 # ?unittest.mock.call_count
 # ?unittest.mock.call_args
 # Обратите внимание в документации, где именно создается мок
+
+
+# !решение ментора
+# ?get_files_count = get_function()
+
+
+# *def get_fixture_path(name):
+#     return os.path.join('fixtures', name)
+
+
+# ?# BEGIN
+# *def test_get_files_count():
+#     directory_path = get_fixture_path("nested")
+#     mock = Mock()
+
+#     get_files_count(directory_path, mock)
+#     assert mock.call_count == 1
+#     assert mock.call_args.args[0] == 'Go!'
+# ?# END
