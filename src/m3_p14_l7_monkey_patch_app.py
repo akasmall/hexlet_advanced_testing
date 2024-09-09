@@ -1,6 +1,6 @@
 import os
 
-from src.client import Client
+from src.m3_p14_l7_monkey_patch_client import Client
 
 default_client = Client()
 
